@@ -1,0 +1,24 @@
+# ninja log v6
+7	732	7928706297269374	lab1_autogen/timestamp	5f1cdb3da71ad7f7
+7	732	7928706297269374	lab1_autogen/mocs_compilation.cpp	5f1cdb3da71ad7f7
+7	732	7928706297269374	C:/Users/Lenovo/Desktop/BSUIR/!sem4/IT/InformationTheory/lab1/build/Desktop_Qt_6_9_3_MinGW_64_bit-Release/lab1_autogen/timestamp	5f1cdb3da71ad7f7
+7	732	7928706297269374	C:/Users/Lenovo/Desktop/BSUIR/!sem4/IT/InformationTheory/lab1/build/Desktop_Qt_6_9_3_MinGW_64_bit-Release/lab1_autogen/mocs_compilation.cpp	5f1cdb3da71ad7f7
+760	1147	7928706298369194	CMakeFiles/lab1.dir/funcs.cpp.obj	a8c346530a03158b
+765	1158	7928706298428310	CMakeFiles/lab1.dir/vigenere.cpp.obj	a7a527fa0cc40ae6
+754	1298	7928706298311916	CMakeFiles/lab1.dir/ColumnCipher.cpp.obj	d6c79ece59eeb176
+742	2423	7928706298190790	CMakeFiles/lab1.dir/main.cpp.obj	a01cf2525d450f9d
+738	2425	7928706298160771	CMakeFiles/lab1.dir/lab1_autogen/mocs_compilation.cpp.obj	40a4aa5c83b8d9d
+747	3304	7928706298241309	CMakeFiles/lab1.dir/mainwindow.cpp.obj	1255e182929275d9
+3305	3454	7928706323818477	lab1.exe	c3b4b3d064b7ee5d
+61	335	7928708307994485	lab1_autogen/timestamp	5f1cdb3da71ad7f7
+61	335	7928708307994485	lab1_autogen/mocs_compilation.cpp	5f1cdb3da71ad7f7
+61	335	7928708307994485	C:/Users/Lenovo/Desktop/BSUIR/!sem4/IT/InformationTheory/lab1/build/Desktop_Qt_6_9_3_MinGW_64_bit-Release/lab1_autogen/timestamp	5f1cdb3da71ad7f7
+61	335	7928708307994485	C:/Users/Lenovo/Desktop/BSUIR/!sem4/IT/InformationTheory/lab1/build/Desktop_Qt_6_9_3_MinGW_64_bit-Release/lab1_autogen/mocs_compilation.cpp	5f1cdb3da71ad7f7
+336	2724	7928708310747135	CMakeFiles/lab1.dir/mainwindow.cpp.obj	1255e182929275d9
+2724	2881	7928708334634087	lab1.exe	c3b4b3d064b7ee5d
+57	256	7928708622815214	lab1_autogen/timestamp	5f1cdb3da71ad7f7
+57	256	7928708622815214	lab1_autogen/mocs_compilation.cpp	5f1cdb3da71ad7f7
+57	256	7928708622815214	C:/Users/Lenovo/Desktop/BSUIR/!sem4/IT/InformationTheory/lab1/build/Desktop_Qt_6_9_3_MinGW_64_bit-Release/lab1_autogen/timestamp	5f1cdb3da71ad7f7
+57	256	7928708622815214	C:/Users/Lenovo/Desktop/BSUIR/!sem4/IT/InformationTheory/lab1/build/Desktop_Qt_6_9_3_MinGW_64_bit-Release/lab1_autogen/mocs_compilation.cpp	5f1cdb3da71ad7f7
+257	2567	7928708624811051	CMakeFiles/lab1.dir/mainwindow.cpp.obj	1255e182929275d9
+2567	2709	7928708647904649	lab1.exe	c3b4b3d064b7ee5d
