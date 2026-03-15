@@ -4,13 +4,13 @@ LSFR::LSFR(std::string initialState, std::vector<bool> p) : _n(p.size()) {
     _state = 0;
     _mask = 0;
 
-    for(int i = 0; i < (int)initialState.size() && i < _n; ++i) {
+    for(int i = 0; i < _n; ++i) {
         if(initialState[i] == '1') {
-            _state |= (1U << i);
+            _state |= (1U << (_n - i - 1));
         }
     }
 
-    for(int i = 0; i < (int)p.size() && i < _n; ++i) {
+    for(int i = 0; i < _n; ++i) {
         if(p[i]) {
             _mask |= (1U << i);
         }
