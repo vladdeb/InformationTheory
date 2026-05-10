@@ -72,6 +72,26 @@
          </property>
         </widget>
        </item>
+       <item>
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>r</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="ledR"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>phi(r)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="ledPhi"/>
+       </item>
       </layout>
      </widget>
     </item>

@@ -25,6 +25,8 @@ void MainWindow::setP()
     _r = _p * _q;
     _phi = (_p - 1) * (_q - 1);
     ui->spbD->setMaximum(_phi - 1);
+    ui->ledR->setText(QString::number(_r));
+    ui->ledPhi->setText(QString::number(_phi));
 }
 
 void MainWindow::setQ()
@@ -33,6 +35,8 @@ void MainWindow::setQ()
     _r = _p * _q;
     _phi = (_p - 1) * (_q - 1);
     ui->spbD->setMaximum(_phi - 1);
+    ui->ledR->setText(QString::number(_r));
+    ui->ledPhi->setText(QString::number(_phi));
 }
 
 void MainWindow::setD()
@@ -85,7 +89,7 @@ void MainWindow::check()
         QMessageBox::warning(this, "Error", "d must be coprime with phi");
         return;
     }
-    QString name = QFileDialog::getOpenFileName(this, "Sing file");
+    QString name = QFileDialog::getOpenFileName(this, "Check file");
     if (!name.isEmpty()) {
         ui->ledFile->setText(name);
         QFile file(name);
@@ -104,15 +108,15 @@ void MainWindow::check()
 
         _e = inverse(_d, _phi);
         std::uint64_t cmp = bpow(_sign, _e, _r);
+        ui->ledH->setText(QString::number(_h));
+        ui->ledSign->setText(QString::number(_sign));
+        ui->ledCmp->setText(QString::number(cmp));
+        ui->ledE->setText(QString::number(_e));
         if (cmp == _h) {
             QMessageBox::information(this, "Result", "Sign correct");
         } else {
             QMessageBox::warning(this, "Result", "Sign incorrect");
         }
-        ui->ledH->setText(QString::number(_h));
-        ui->ledSign->setText(QString::number(_sign));
-        ui->ledCmp->setText(QString::number(cmp));
-        ui->ledE->setText(QString::number(_e));
         file.close();
     }
 }
