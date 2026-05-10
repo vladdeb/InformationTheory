@@ -28,7 +28,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::setP(int p) {
     _p = static_cast<std::uint64_t>(p);
-    ui->spbK->setMaximum(p - 1);
+    ui->spbK->setMaximum(p - 2);
     ui->spbX->setMaximum(p - 2);
 }
 

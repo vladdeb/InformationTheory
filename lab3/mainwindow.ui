@@ -104,10 +104,10 @@
           <item>
            <widget class="QSpinBox" name="spbK">
             <property name="minimum">
-             <number>1</number>
+             <number>2</number>
             </property>
             <property name="maximum">
-             <number>256</number>
+             <number>255</number>
             </property>
            </widget>
           </item>

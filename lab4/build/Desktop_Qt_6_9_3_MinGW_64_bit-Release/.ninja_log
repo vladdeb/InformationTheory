@@ -1,0 +1,11 @@
+# ninja log v6
+15	979	8001163922483676	lab4_autogen/timestamp	15c8fe9175f5dc7a
+15	979	8001163922483676	lab4_autogen/mocs_compilation.cpp	15c8fe9175f5dc7a
+15	979	8001163922483676	C:/Users/Lenovo/Desktop/BSUIR/!sem4/IT/InformationTheory/lab4/build/Desktop_Qt_6_9_3_MinGW_64_bit-Release/lab4_autogen/timestamp	15c8fe9175f5dc7a
+15	979	8001163922483676	C:/Users/Lenovo/Desktop/BSUIR/!sem4/IT/InformationTheory/lab4/build/Desktop_Qt_6_9_3_MinGW_64_bit-Release/lab4_autogen/mocs_compilation.cpp	15c8fe9175f5dc7a
+1004	1745	8001163923668059	CMakeFiles/lab4.dir/NumberTheory.cpp.obj	4ff6765c78916b91
+1001	2972	8001163923632794	CMakeFiles/lab4.dir/solve.cpp.obj	e32582235effbe42
+986	3297	8001163923485163	CMakeFiles/lab4.dir/lab4_autogen/mocs_compilation.cpp.obj	c31fecce00f86bd8
+991	3311	8001163923530260	CMakeFiles/lab4.dir/main.cpp.obj	4015b76ec27bf7f5
+996	4018	8001163923577699	CMakeFiles/lab4.dir/mainwindow.cpp.obj	d93184cfed28b60b
+4018	4181	8001163953807104	lab4.exe	698b45fca85a093a
